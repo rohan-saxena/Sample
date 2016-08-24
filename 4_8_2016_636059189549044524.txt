@@ -1,0 +1,1049 @@
+Name,Description,ManagedType,Searchable,FullTextQueriable,Queryable,Retrievable,Refinable,Sortable,HasMultipleValues,SafeForAnonymous,Mapping,Aliases
+AboutMe,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:AboutMe|ows_Notes
+Account,,Text,False,False,True,True,False,False,False,True,ows_Name
+AccountName,,Text,True,True,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:AccountName
+acronym,,Text,False,False,False,True,False,False,False,True
+acronymaggre,,Text,True,True,True,True,False,False,False,True
+acronymexpansion,,Text,False,False,False,True,False,False,False,True
+acronymexpansionaggre,,Text,False,False,False,True,False,False,False,True
+AnchorText,,Text,True,True,False,False,False,False,False,True,28
+anchortextcomplete,,Text,False,False,True,False,False,False,False,True
+ArticleByLineOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_ArticleByLine
+ArticleDateGROWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_ArticleDate_GR
+ArticleStartDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_ArticleStartDate
+AssignedTo,,Text,False,False,True,True,False,False,False,True,ows_AssignedTo|ows_Assigned_x0020_To
+AttachmentDescription,Description of attachment on this MicroBlog Post,Text,False,False,False,True,False,False,False,True,ows_MediaLinkDescription
+AttachmentType,The type of attachment on this MicroBlog Post,Integer,False,False,True,True,True,False,False,True,ows_MediaLinkType
+AttachmentURI,URI of attachment on this MicroBlog Post,Text,False,False,False,True,False,False,False,True,ows_MediaLinkURI
+Author,author,Text,True,True,True,True,False,True,True,False,Author|MailFrom|6|4|Author|3|105|8|MetadataExtractorAuthor,DocAuthor
+AuthorOWSUSER,,Text,False,False,True,True,False,False,False,False,ows_q_USER_Author
+AverageRating,,Decimal,False,False,False,True,False,False,False,True,ows_AverageRating
+BaseOfficeLocation,,Text,False,False,True,True,True,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Location
+BasicScope,,Binary,False,False,False,True,False,False,False,True
+body,Represents the main part of a document. System defined and should not be changed or overridden,Text,True,True,False,False,False,False,False,True
+BodyOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_Body
+CategoryHeaderColorOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_CategoryHeaderColor
+CategoryHeaderTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_CategoryHeaderText
+CategoryNavigationUrl,,Text,False,False,True,False,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:area:CategoryUrlNavigation
+CategorySortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_CategorySortOrder
+CCAMetadata,,Text,False,False,False,True,False,False,False,True
+CellPhoneOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_CellPhone
+charset,,Text,False,False,True,True,False,False,False,True
+CheckoutUserOWSUSER,,Text,False,False,True,True,False,False,True,False,ows_q_USER_CheckoutUser
+clickdistance,,Integer,False,False,False,False,False,True,False,True
+CollapsingStatus,,Integer,False,False,False,True,False,False,False,True
+Colleagues,,Text,False,False,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:Colleagues
+CombinedName,,Text,True,True,False,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:CombinedName
+CombinedUserProfileNames,,Text,False,False,True,False,True,False,False,True
+CommentsOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_Comments
+CommunityMembersCount,,Integer,False,False,False,True,False,True,False,True,Community_MembersCount
+CommunityRepliesCount,,Integer,False,False,False,True,False,True,False,True,Community_RepliesCount
+CommunityTopicsCount,,Integer,False,False,False,True,False,True,False,True,Community_TopicsCount
+companies,,Text,False,False,True,True,True,True,True,True
+CompanyNumberOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_CompanyNumber
+CompanyOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Company
+contentclass,,Text,False,False,True,True,True,False,False,True,DAV:contentclass|DAV:contentclass|DAV:contentclass|Content-Class|Exchange.ContentClass|Content-class,DAV:contentclass
+ContentModifiedTime,,DateTime,False,False,True,False,False,False,False,True
+Contents,,Text,True,True,False,False,False,False,False,True,ows_VideoSetDescription|ows_DocumentSetDescription|19|ows_SearchContent|ows_Body|ows_Attributes|ows_Content
+ContentsHidden,,Text,True,True,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Location|urn:schemas-microsoft-com:sharepoint:portal:profile:Office|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PastProjects|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-School|urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone|urn:schemas-microsoft-com:sharepoint:portal:profile:CellPhone|urn:schemas-microsoft-com:sharepoint:portal:profile:Fax|urn:schemas-microsoft-com:sharepoint:portal:profile:HomePhone|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-MemberOf|urn:schemas-microsoft-com:sharepoint:portal:profile:AboutMe|urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationParentNames
+ContentSource,,Text,False,False,True,True,False,False,False,True
+ContentType,,Text,False,False,True,True,True,False,False,True,5|ows_ContentType,MimeType
+ContentTypeId,,Text,False,False,True,True,True,False,False,True,ows_ContentTypeId
+Created,,DateTime,True,True,True,True,True,True,False,True,12|15,DocCreatedTm
+CreatedBy,,Text,False,False,True,True,False,False,False,True,ows_Created_x0020_By
+CreatedOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_Created
+Date00,,DateTime,False,False,True,False,False,False,False,True
+Date01,,DateTime,False,False,True,False,False,False,False,True
+Date02,,DateTime,False,False,True,False,False,False,False,True
+Date03,,DateTime,False,False,True,False,False,False,False,True
+Date04,,DateTime,False,False,True,False,False,False,False,True
+Date05,,DateTime,False,False,True,False,False,False,False,True
+Date06,,DateTime,False,False,True,False,False,False,False,True
+Date07,,DateTime,False,False,True,False,False,False,False,True
+Date08,,DateTime,False,False,True,False,False,False,False,True
+Date09,,DateTime,False,False,True,False,False,False,False,True
+Decimal00,,Decimal,False,False,True,False,False,False,False,True
+Decimal01,,Decimal,False,False,True,False,False,False,False,True
+Decimal02,,Decimal,False,False,True,False,False,False,False,True
+Decimal03,,Decimal,False,False,True,False,False,False,False,True
+Decimal04,,Decimal,False,False,True,False,False,False,False,True
+Decimal05,,Decimal,False,False,True,False,False,False,False,True
+Decimal06,,Decimal,False,False,True,False,False,False,False,True
+Decimal07,,Decimal,False,False,True,False,False,False,False,True
+Decimal08,,Decimal,False,False,True,False,False,False,False,True
+Decimal09,,Decimal,False,False,True,False,False,False,False,True
+deeplinks,,Text,False,False,True,True,False,False,False,True
+def,,Text,False,False,False,True,False,False,False,True
+defaggre,,Text,True,True,True,True,False,False,False,True
+DefaultEncodingURL,,Text,False,False,False,True,False,False,False,True,ows_VideoSetDefaultEncoding|ows_EncodedAbsUrl
+definitioncontent,,Text,False,False,False,True,False,False,False,True
+definitioncontentaggre,,Text,False,False,False,True,False,False,False,True
+Department,,Text,False,False,True,True,True,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:Department|ows_Department,urn:schemas-microsoft-com:sharepoint:portal:profile:Department
+Description,,Text,False,False,True,True,False,False,False,True,Description|6|DESCRIPTION|ows_VideoSetDescription|ows_DocumentSetDescription|ows_Description|ows_SPSDescription|ows_SiteDescription|urn:schemas-microsoft-com:sharepoint:portal:profile:AboutMe|ows_DMSAbstract,urn:schemas.microsoft.com:fulltextqueryinfo:description
+DescriptionOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_Description
+DetectedLanguage,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_TranslationLanguage
+DetectedLanguageRanking,,Integer,False,False,False,True,False,True,False,True
+DiscoveredTime,,DateTime,False,False,True,True,False,False,False,True
+DiscussionBestAnswerID,,Integer,False,False,False,True,False,False,False,True,ows_BestAnswerId
+DiscussionCategory,,Text,False,False,False,True,False,False,False,True,ows_CategoriesLookup|ows_Category
+DiscussionLikesCount,,Integer,False,False,False,True,False,False,False,True,ows_DescendantLikesCount
+DiscussionPost,,Text,False,False,False,True,False,False,False,True,ows_Body
+DisplayAuthor,,Text,False,False,True,True,True,False,True,False
+DisplayDate,,DateTime,False,False,True,True,False,False,False,True,ows_ImageCreateDate|ows_Image_x0020_CreateDate,DatePictureTaken
+DisplayPDFOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_DisplayPDF
+DMSDocAccessRight,,Text,False,False,True,True,False,True,False,True,ows_DMSDocAccessRight
+DMSDocAuthor,,Text,True,True,True,True,True,True,False,True,ows_DMSDocAuthor
+DMSDocTitle,,Text,True,True,True,True,False,True,False,True,ows_DMSDocTitle
+DMSLeaseTerm,,Text,True,True,False,True,False,False,False,True,ows_DMSLeaseTerm
+docacl,,Text,False,False,True,False,False,False,False,True
+docaclmeta,,Text,False,False,False,True,False,False,False,True,docaclmeta
+DocComments,,Text,False,False,True,False,False,False,False,True,Description|6
+DocId,,Text,False,False,True,True,False,False,False,True,ows__dlc_DocId
+DocKeywords,,Text,False,False,True,False,False,False,False,True,5,urn:schemas-microsoft-com:office:office#Keywords
+docrank,,Integer,False,False,False,True,False,True,False,True
+DocSignature,,Text,False,False,True,False,False,False,False,True,6,urn:schemas.microsoft.com:fulltextqueryinfo:docsignature
+DocSubject,,Text,False,False,True,True,False,False,False,True,Subject|3
+DocumentSignature,,Integer,False,False,True,True,False,True,True,True
+DocumentSummary,,Binary,False,False,False,True,False,False,False,True
+DocumentSummarySize,,Integer,False,False,False,True,False,False,False,True
+docvector,,Text,False,False,False,True,False,False,False,True
+domain,,Text,False,False,True,True,False,False,False,True
+Double00,,Double,False,False,True,False,False,False,False,True
+Double01,,Double,False,False,True,False,False,False,False,True
+Double02,,Double,False,False,True,False,False,False,False,True
+Double03,,Double,False,False,True,False,False,False,False,True
+Double04,,Double,False,False,True,False,False,False,False,True
+Double05,,Double,False,False,True,False,False,False,False,True
+Double06,,Double,False,False,True,False,False,False,False,True
+Double07,,Double,False,False,True,False,False,False,False,True
+Double08,,Double,False,False,True,False,False,False,False,True
+Double09,,Double,False,False,True,False,False,False,False,True
+DuplicateHash,,Integer,False,False,True,True,False,False,True,True
+Duplicates,,Text,False,False,False,True,False,False,False,True
+EditorOWSUSER,,Text,False,False,True,True,False,False,False,False,ows_q_USER_Editor
+EduAssignmentCategory,,Text,False,False,True,True,False,False,False,True,ows_EduAssignmentCategory
+EduAssignmentFormat,,Text,False,False,True,True,False,False,False,True,ows_EduAssignmentFormat
+EduEntityId,,Text,False,False,False,True,False,False,False,True,ows_EduEntityId
+EduMaximumScore,,Text,False,False,True,True,False,False,False,True,ows_EduMaximumScore
+Email,,Text,True,True,True,True,False,False,True,True,ows_q_TEXT_EMail
+EMailOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_EMail
+encoding,,Text,False,False,False,True,False,False,False,True
+EndDate,,DateTime,False,False,True,True,False,False,False,True,ows_End_x0020_Date
+EndDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_EndDate|ows_q_DATE__EndDate
+EventRate,,Double,False,False,False,False,False,True,False,True
+ExcludeFromSummary,,Text,False,False,False,True,False,False,False,True,EmbeddedContent|LINK.OFFICECHILD|Description|6|ows__dlc_DocId|ows_TaxKeyword
+ExpirationTime,,DateTime,False,False,True,False,False,True,False,True,ows_Announcement_x0020_Expires|ows_Expires
+ExpiresOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_Expires
+ExternalMediaURL,,Text,False,False,False,True,False,False,False,True,ows_VideoSetExternalLink
+ExtractedAuthor,,Text,False,False,True,True,False,False,False,True
+ExtractedDate,,DateTime,False,False,True,True,False,False,False,True
+FallbackLanguage,,Text,False,False,False,True,False,False,False,True,107
+Fax,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_WorkFax|ows_Work_x0020_Fax
+fcocount,,Integer,False,False,False,True,False,False,False,True
+FileExtension,file extension,Text,False,False,True,True,True,True,False,True,FileExtension|ows_File_x0020_Type|ows_FileType
+Filename,,Text,True,True,True,True,False,True,False,True,ows_LinkFilename|10,DAV:displayname
+FileType,,Text,False,False,True,True,True,False,False,True,FileType,format
+FirstLevelColleagues,,Text,False,False,True,True,False,False,True,True
+FirstLevelMutualFollowings,,Text,False,False,True,True,False,False,True,True
+FirstName,,Text,False,False,True,True,False,True,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:FirstName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticFirstName
+FirstNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_FirstName
+FirstNamePhoneticOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_FirstNamePhonetic
+FollowAllAnchor,,Text,False,False,True,False,False,False,False,True,31
+FollowRecommendedFor,,Text,False,False,True,False,False,False,False,True
+FullNameOWSTEXT,,Text,False,False,True,True,False,True,False,True,ows_q_TEXT_FullName
+FullPostBody,Contains the full body of a MicroBlog post,Text,False,False,False,True,False,False,False,True,ows_SearchContent
+GeneratedTitle,,Text,True,True,True,True,False,False,False,True
+Genre,,Text,False,False,True,True,False,False,False,True
+HeaderDescriptionOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_HeaderDescription
+HeaderOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Header
+HierarchyUrl,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:ProfileHierarchyViewUrl
+HitHighlightedProperties,,Text,False,False,True,True,False,False,False,True
+HitHighlightedSummary,,Text,False,False,True,True,False,False,False,True
+HomeAddressCityOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeAddressCity
+HomeAddressCountryOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeAddressCountry
+HomeAddressPostalCodeOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeAddressPostalCode
+HomeAddressStateOrProvinceOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeAddressStateOrProvince
+HomeAddressStreetOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeAddressStreet
+HomeFaxNumberOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_HomeFaxNumber
+HostingPartition,,Text,False,False,True,False,True,False,False,True
+HoverdescOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_Hoverdesc
+HoverEffectOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_HoverEffect
+hwboost,,Integer,False,False,True,False,False,True,False,True
+ImageCreateDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_ImageCreateDate
+ImageDateCreated,,DateTime,False,False,True,True,False,False,False,True,ows_ImageCreateDate|ows_Image_x0020_CreateDate
+ImageHeightOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_ImageHeight
+ImageWidthOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_ImageWidth
+importance,,Integer,False,False,True,True,False,True,False,True
+Int00,,Integer,False,False,True,False,False,False,False,True
+Int01,,Integer,False,False,True,False,False,False,False,True
+Int02,,Integer,False,False,True,False,False,False,False,True
+Int03,,Integer,False,False,True,False,False,False,False,True
+Int04,,Integer,False,False,True,False,False,False,False,True
+Int05,,Integer,False,False,True,False,False,False,False,True
+Int06,,Integer,False,False,True,False,False,False,False,True
+Int07,,Integer,False,False,True,False,False,False,False,True
+Int08,,Integer,False,False,True,False,False,False,False,True
+Int09,,Integer,False,False,True,False,False,False,False,True
+Int10,,Integer,False,False,True,False,False,False,False,True
+Int11,,Integer,False,False,True,False,False,False,False,True
+Int12,,Integer,False,False,True,False,False,False,False,True
+Int13,,Integer,False,False,True,False,False,False,False,True
+Int14,,Integer,False,False,True,False,False,False,False,True
+Int15,,Integer,False,False,True,False,False,False,False,True
+Int16,,Integer,False,False,True,False,False,False,False,True
+Int17,,Integer,False,False,True,False,False,False,False,True
+Int18,,Integer,False,False,True,False,False,False,False,True
+Int19,,Integer,False,False,True,False,False,False,False,True
+Int20,,Integer,False,False,True,False,False,False,False,True
+Int21,,Integer,False,False,True,False,False,False,False,True
+Int22,,Integer,False,False,True,False,False,False,False,True
+Int23,,Integer,False,False,True,False,False,False,False,True
+Int24,,Integer,False,False,True,False,False,False,False,True
+Int25,,Integer,False,False,True,False,False,False,False,True
+Int26,,Integer,False,False,True,False,False,False,False,True
+Int27,,Integer,False,False,True,False,False,False,False,True
+Int28,,Integer,False,False,True,False,False,False,False,True
+Int29,,Integer,False,False,True,False,False,False,False,True
+Int30,,Integer,False,False,True,False,False,False,False,True
+Int31,,Integer,False,False,True,False,False,False,False,True
+Int32,,Integer,False,False,True,False,False,False,False,True
+Int33,,Integer,False,False,True,False,False,False,False,True
+Int34,,Integer,False,False,True,False,False,False,False,True
+Int35,,Integer,False,False,True,False,False,False,False,True
+Int36,,Integer,False,False,True,False,False,False,False,True
+Int37,,Integer,False,False,True,False,False,False,False,True
+Int38,,Integer,False,False,True,False,False,False,False,True
+Int39,,Integer,False,False,True,False,False,False,False,True
+Int40,,Integer,False,False,True,False,False,False,False,True
+Int41,,Integer,False,False,True,False,False,False,False,True
+Int42,,Integer,False,False,True,False,False,False,False,True
+Int43,,Integer,False,False,True,False,False,False,False,True
+Int44,,Integer,False,False,True,False,False,False,False,True
+Int45,,Integer,False,False,True,False,False,False,False,True
+Int46,,Integer,False,False,True,False,False,False,False,True
+Int47,,Integer,False,False,True,False,False,False,False,True
+Int48,,Integer,False,False,True,False,False,False,False,True
+Int49,,Integer,False,False,True,False,False,False,False,True
+Interests,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Interests
+InternalFileType,,Integer,False,False,False,True,False,True,False,True
+IntersiteAnchorText,,Text,True,True,False,False,False,False,False,True
+IsContainer,,YesNo,False,False,True,True,False,False,False,True,7
+IsData,Is the item a data source?,YesNo,True,True,True,True,False,False,False,True,ows_IsData|IsData
+IsDefaultView,,YesNo,False,False,False,True,False,False,False,True,ows_IsDefaultView
+IsDescriptionLinkOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_IsDescriptionLink
+IsDocument,,YesNo,False,False,True,True,False,False,False,True,urn:schemas.microsoft.com:sharepoint:portal:isdocument|urn:schemas.microsoft.com:sharepoint:portal:isdocument|22,urn:schemas.microsoft.com:sharepoint:portal:isdocument
+IsEmptyList,,YesNo,False,False,False,True,False,False,False,True,ows_IsEmptyList
+IsHovereffectOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_IsHovereffect
+IsListItem,,YesNo,False,False,False,True,False,False,False,True,ows_isItem
+IsMyDocuments,Indicates whether an item is part of the My Documents library,YesNo,False,False,True,True,False,False,False,True,ows_IsMyDocuments
+IsNewTaborSameTabOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_IsNewTaborSameTab
+IsPublishingCatalog,Property indicating whether a library is a content catalog,Text,False,False,True,True,False,False,False,True,IsPublishingCatalog
+IsReport,Is the item a report?,YesNo,True,True,True,True,False,False,False,True,ows_IsReport|IsReport
+ItemCategoryText,,Text,True,True,False,False,False,False,False,True,ProductCatalogItemCategory
+ItemID,Created by Stora Enso,Integer,True,True,True,True,False,False,False,True,ows_ID
+JobTitle,,Text,True,True,True,True,True,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-JobTitle|urn:schemas-microsoft-com:sharepoint:portal:profile:Title|ows_JobTitle|ows_Job_x0020_Title,urn:schemas-microsoft-com:sharepoint:portal:profile:Title
+JobTitleOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_JobTitle
+Keywords,,Text,False,False,True,True,False,False,False,True,ows_Keywords
+KeywordsOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_Keywords
+language,,Text,False,False,True,True,False,False,False,True,ows_ProductCatalogLanguageTag
+languageHint,,Text,False,False,False,True,False,False,False,True
+languages,,Text,False,False,True,True,True,False,True,True
+LastAnalyticsUpdateTime,,DateTime,False,False,False,True,False,False,False,True
+LastModifiedTime,,DateTime,False,False,True,True,True,True,False,True,LastSavedDateTime|14|16|ows_Modified|lastaccessed,Write
+LastName,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:LastName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticLastName
+LastNamePhoneticOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_LastNamePhonetic
+LevelsToTop,,Integer,False,False,False,True,False,True,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:LevelsToTop
+LikesCount,Number of people who liked this MicroBlog item,Integer,False,False,False,True,False,False,False,True,ows_LikesCount
+LinkNewTaborSameTabOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_LinkNewTaborSameTab
+LinkURLOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_LinkURL
+ListID,,Text,False,False,True,True,False,False,False,True,ows_ListID
+ListItemID,,Text,False,False,True,True,False,False,False,True,ows_ListItemID
+ListUrl,Property containing rootfolder Url for a list,Text,False,False,True,True,False,False,False,True,ListUrl
+Location,,Text,False,False,True,True,True,False,False,True,ows_Location
+LocationOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Location
+MailingAddress,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_seMailingAddress
+ManagedProperties,Tracking all managed properties in use for each document,Text,False,False,False,False,True,False,True,False
+MediaDuration,,Integer,False,False,True,True,True,False,False,True,ows_MediaLengthInSeconds
+Memberships,,Text,True,True,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:QuickLinks
+MetadataAuthor,,Text,False,False,True,True,False,False,False,True,Author|MailFrom|6|4|Author
+MicroBlogType,Indicates the type of a MicroBlog Post (root post, reply post, etc.),Integer,False,False,True,True,False,False,False,True,ows_MicroBlogType
+MobilePhone,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:CellPhone|ows_CellPhone|ows_Cell_x0020_Phone
+ModerationCommentsOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT__ModerationComments
+ModifiedBy,,Text,False,False,True,True,False,True,False,True,ows_ModifiedBy|ows_Modified_x0020_By|LastModifiedBy|8
+ModifiedOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_Modified
+newsHighlightedArticleOWSBOOL,,Text,True,True,True,True,False,True,False,True,ows_q_BOOL_newsHighlightedArticle
+NewsMediaPublishedDateOWSDATE,,Text,True,True,True,True,True,True,False,True,ows_q_DATE_NewsMediaPublishedDate
+newsShowShareLinksOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_newsShowShareLinks
+NLCodePage,,Integer,False,False,True,False,False,False,False,True,4
+Notes,,Text,False,False,True,True,False,False,False,True,ows_Note|ows_Notes
+NumItemsInCollection,,Integer,False,False,False,True,False,False,False,True
+OfficeNumber,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:Office
+OfficeOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Office
+OrgNames,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationNames|ows_Company,Company
+OrgParentNames,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationParentNames
+OrgParentUrls,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationParentURLs
+OrgUrls,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationURLs
+OriginalPath,,Text,False,False,False,True,False,False,False,True,11|9|2|ows_DMSDocAuthorURL,url
+OtherAddressPostalCodeOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_OtherAddressPostalCode
+OtherAddressStreetOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_OtherAddressStreet
+OWS_ItemURL,,Text,False,False,False,True,False,False,False,True
+OWS_URL,,Text,False,False,True,False,False,False,False,True,ows_URL
+owsmetadatafacetinfo,,Text,False,False,True,True,True,False,False,False,ows_MetadataFacetInfo
+owstaxIdblProducts,,Text,True,True,True,True,False,False,True,True,ows_taxId_blProducts
+owstaxIdblTaxBusinessSegment,,Text,True,True,True,True,False,False,True,True,ows_taxId_blTaxBusinessSegment
+owstaxIdblTaxContactDivisionOrgMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_blTaxContactDivisionOrgMulti
+owstaxIdblTaxContactTypeMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_blTaxContactTypeMulti
+owstaxIdblTaxNewsCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_blTaxNewsCategory|ows_blTaxNewsCategory
+owstaxIdblTaxParentNavigationTerm,,Text,True,True,True,True,False,False,True,True,ows_taxId_blTaxParentNavigationTerm
+owstaxIdbmProductFamilies,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmProductFamilies
+owstaxIdbmTaxBusinessSegment,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmTaxBusinessSegment
+owstaxIdbmTaxContactDivisionOrgMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmTaxContactDivisionOrgMulti
+owstaxIdbmTaxContactTypeMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmTaxContactTypeMulti
+owstaxIdbmTaxNewsCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmTaxNewsCategory
+owstaxIdbmTaxParentNavigationTerm,,Text,True,True,True,True,False,False,True,True,ows_taxId_bmTaxParentNavigationTerm
+owstaxIdcommonTaxBusinessCountry,,Text,True,True,True,True,True,True,True,True,ows_taxId_commonTaxBusinessCountry
+owstaxIdDotComx0020globalx0020news,,Text,True,True,True,True,False,False,True,True,ows_taxId_DotCom_x0020_global_x0020_news
+owstaxidmetadataalltagsinfo,,Text,False,False,True,True,True,False,True,False,ows_taxId_MetadataAllTagsInfo
+owstaxIdprNewsTopic,,Text,True,True,True,True,False,False,True,True,ows_taxId_prNewsTopic
+owstaxIdProductCatalogItemCategory,,Text,True,True,True,True,True,False,True,True,ows_taxId_ProductCatalogItemCategory
+owstaxIdprProduct,,Text,True,True,True,True,False,False,True,True,ows_taxId_prProduct
+owstaxIdseblProductCategoryMultiTax,,Text,True,True,True,True,False,False,True,True,ows_taxId_seblProductCategoryMultiTax
+owstaxIdseblProductCategoryTax,,Text,True,True,True,True,False,False,True,True,ows_taxId_seblProductCategoryTax
+owstaxIdseblProductTax,,Text,True,True,True,True,False,False,True,True,ows_taxId_seblProductTax
+owstaxIdseblRelatedProductsTax,,Text,True,True,True,True,False,False,True,True,ows_taxId_seblRelatedProductsTax
+owstaxIdseblSiteNavTax,,Text,True,True,True,True,False,False,True,True,ows_taxId_seblSiteNavTax
+owstaxIdseBrand,,Text,True,True,True,True,False,False,True,True,ows_taxId_seBrand
+owstaxIdseBrandMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seBrandMulti
+owstaxIdseBrandUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_seBrandUnique
+owstaxIdseBusinessCountries,,Text,True,True,True,True,False,False,True,True,ows_taxId_seBusinessCountries
+owstaxIdseBusinessCountryUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_seBusinessCountryUnique
+owstaxIdseCertificatesAndLabels,,Text,True,True,True,True,False,False,True,True,ows_taxId_seCertificatesAndLabels
+owstaxIdseCertificatesAndLabelsUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_seCertificatesAndLabelsUnique
+owstaxIdseContactTypeMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seContactTypeMulti
+owstaxIdseDotComglobalnews,,Text,True,True,True,True,False,False,True,True,ows_taxId_seDotComglobalnews
+owstaxIdseEndUse,,Text,True,True,True,True,False,False,True,True,ows_taxId_seEndUse
+owstaxIdseFinishShade,,Text,True,True,True,True,False,False,True,True,ows_taxId_seFinishShade
+owstaxIdsegiTaxCareersImageCategories,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxCareersImageCategories
+owstaxIdsegiTaxCertificate,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxCertificate
+owstaxIdsegiTaxCertificateFamilyUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxCertificateFamilyUnique
+owstaxIdsegiTaxContactDivisionOrgMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxContactDivisionOrgMulti
+owstaxIdsegiTaxContactTypeMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxContactTypeMulti
+owstaxIdsegiTaxEventType,,Text,True,True,True,True,True,True,True,True,ows_taxId_segiTaxEventType
+owstaxIdsegiTaxFeedLanguageMulti,,Text,True,True,True,True,True,True,True,True,ows_taxId_segiTaxFeedLanguageMulti
+owstaxIdsegiTaxFileType,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxFileType
+owstaxIdsegiTaxLanguage,,Text,True,True,True,True,True,False,True,True,ows_taxId_segiTaxLanguage
+owstaxIdsegiTaxMillCountry,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxMillCountry
+owstaxIdsegiTaxMillMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxMillMulti
+owstaxIdsegiTaxMillUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxMillUnique
+owstaxIdsegiTaxNewsCategory,,Text,True,True,True,True,True,False,True,True,ows_taxId_segiTaxNewsCategory
+owstaxIdsegiTaxParentNavigationTerm,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxParentNavigationTerm
+owstaxIdsegiTaxProductandServicesDocumentCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxProductandServicesDocumentCategory
+owstaxIdsegiTaxProductAndServicesImageCategories,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxProductAndServicesImageCategories
+owstaxIdsegiTaxPublicationCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxPublicationCategory
+owstaxIdsegiTaxReThinkTopic,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxReThinkTopic
+owstaxIdsegiTaxSuppliersDocumentCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxSuppliersDocumentCategory
+owstaxIdsegiTaxSuppliersImageCategories,,Text,True,True,True,True,False,False,True,True,ows_taxId_segiTaxSuppliersImageCategories
+owstaxIdseLanguage,,Text,True,True,True,True,False,False,True,True,ows_taxId_seLanguage
+owstaxIdseLanguageMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seLanguageMulti
+owstaxIdseMill,,Text,True,True,True,True,False,False,True,True,ows_taxId_seMill
+owstaxIdseNavigation,,Text,True,True,True,True,False,False,True,True,ows_taxId_seNavigation
+owstaxIdseNavigationMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seNavigationMulti
+owstaxIdsePrintingMethod,,Text,True,True,True,True,False,False,True,True,ows_taxId_sePrintingMethod
+owstaxIdseProductCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductCategory
+owstaxIdseProductCategoryMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductCategoryMulti|ows_seProductCategoryMulti
+owstaxIdseProductCategoryUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductCategoryUnique
+owstaxIdseProductMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductMulti
+owstaxIdseProductSubCategory,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductSubCategory
+owstaxIdseProductUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_seProductUnique
+owstaxIdserpEndUses,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpEndUses
+owstaxIdserpMillLanguage,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpMillLanguage
+owstaxIdserpProduct,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpProduct
+owstaxIdserpTaxBusinessSegmentMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxBusinessSegmentMulti
+owstaxIdserpTaxCategoryMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCategoryMulti
+owstaxIdserpTaxCategoryUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCategoryUnique
+owstaxIdserpTaxContactDivisionOrgMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxContactDivisionOrgMulti
+owstaxIdserpTaxContactTypeMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxContactTypeMulti
+owstaxIdserpTaxCountriesMillsMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCountriesMillsMulti
+owstaxIdserpTaxCountry,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCountry
+owstaxIdserpTaxCountryMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCountryMulti
+owstaxIdserpTaxCountryUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxCountryUnique
+owstaxIdserpTaxEndUseMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxEndUseMulti
+owstaxIdserpTaxEndUseUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxEndUseUnique
+owstaxIdserpTaxGroupingMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxGroupingMulti
+owstaxIdserpTaxMill,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxMill
+owstaxIdserpTaxMillLanguageUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxMillLanguageUnique
+owstaxIdserpTaxNewsArea,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxNewsArea
+owstaxIdserpTaxNewsAreaUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxNewsAreaUnique
+owstaxIdserpTaxPFEndUseMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxPFEndUseMulti
+owstaxIdserpTaxPFEndUseUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxPFEndUseUnique
+owstaxIdserpTaxProductFamilyMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxProductFamilyMulti
+owstaxIdserpTaxProductFamilyUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxProductFamilyUnique
+owstaxIdserpTaxProductKitUnique,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxProductKitUnique
+owstaxIdserpTaxProjectStoryType,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxProjectStoryType
+owstaxIdserpTaxRethinkTopicMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_serpTaxRethinkTopicMulti
+owstaxIdseSizesMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seSizesMulti
+owstaxIdseSortingsMulti,,Text,True,True,True,True,False,False,True,True,ows_taxId_seSortingsMulti
+owstaxIdseTaxBusinessCountriesMulti,,Text,True,True,True,True,False,True,True,True,ows_taxId_seTaxBusinessCountriesMulti|ows_seTaxBusinessCountriesMulti
+owstaxIdseTaxGlobalContactTypes,,Text,True,True,True,True,False,False,True,True,ows_taxId_seTaxGlobalContactTypes
+owstaxIdseTaxNavigationTerm,,Text,True,True,True,True,False,False,True,True,ows_taxId_seTaxNavigationTerm
+owstaxIdseTaxOrganisationDivision,,Text,True,True,True,True,False,False,True,True,ows_taxId_seTaxOrganisationDivision
+PageImage,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_r_IMGE_PublishingPageImage
+PageRollUpImage,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_r_IMGE_PublishingRollupImage
+ParentLink,,Text,False,False,True,True,False,False,False,True,ows_ParentURL
+PastProjects,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PastProjects
+Path,path, DAV:href, VPath, DocAddress or Item,Text,False,False,True,True,False,False,False,True,11|9|2,DAV:href
+PCCategoryBackgroundHexOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_CategoryBackgroundHex
+PCCategoryHoverHexOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_CategoryHoverHex
+PCCategoryProgressSelectedHexOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_CategoryProgressSelectedHex
+PCCategoryProgressUnselectedHexOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_CategoryProgressUnselectedHex
+PCIssueAreaAnchorOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_IssueAreaAnchor
+PCIssueAreaImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_PC_IssueAreaImage
+PCIssueAreaIntroOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_PC_IssueAreaIntro
+PCIssueAreaKPISortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_PC_IssueAreaKPISortOrder
+PCIssueAreaLeftBlockHeaderOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_IssueAreaLeftBlockHeader
+PCIssueAreaLeftBlockTextOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_PC_IssueAreaLeftBlockText
+PCIssueAreaLinkSortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_PC_IssueAreaLinkSortOrder
+PCIssueAreaLinkURLOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_IssueAreaLinkURL
+PCIssueAreaRightBlockHeaderOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_IssueAreaRightBlockHeader
+PCIssueAreaRightBlockTextOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_PC_IssueAreaRightBlockText
+PCIssueAreaSortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_PC_IssueAreaSortOrder
+PCIssueAreaTeaserTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_IssueAreaTeaserText
+PCIssueCategorySortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_PC_IssueCategorySortOrder
+PCKPIPerformanceLabelOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_KPIPerformanceLabel
+PCKPIPerformanceValueOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_PC_KPIPerformanceValue
+PCKPIProgress1OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_KPIProgress1
+PCKPIProgress2OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_KPIProgress2
+PCKPIProgress3OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_KPIProgress3
+PCKPITargetLabelOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_KPITargetLabel
+PCKPITargetValueOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_PC_KPITargetValue
+PCLinkURLOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PC_LinkURL
+PCProgressBarOWSCHCM,,Text,False,False,True,True,False,False,False,True,ows_q_CHCM_PC_ProgressBar
+PCSummaryProgressBarOWSCHCM,,Text,False,False,True,True,False,False,False,True,ows_q_CHCM_PC_SummaryProgressBar
+PCUpdateDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_PC_UpdateDate
+PCUpdateHighlightOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_PC_UpdateHighlight
+PDFButtonTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PDFButtonText
+PDFHeaderDescriptionOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PDFHeaderDescription
+PDFHeaderTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PDFHeaderText
+People,,Text,False,False,True,True,True,False,True,False,ows_People|Author|MailFrom|6|4|Author
+PeopleInMedia,,Text,False,False,True,True,True,False,True,True,ows_PeopleInMedia
+PeopleKeywords,,Text,False,False,True,True,True,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Responsibility|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Skills|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Interests
+PhoneNumber,,Text,False,False,True,True,False,False,True,True
+PictureHeight,,Integer,False,False,True,True,False,False,False,True,ows_ImageHeight|ows_VideoHeightInPixels,ImageHeight
+PictureThumbnailURL,,Text,False,False,True,True,False,False,False,True,ows_AlternateThumbnailUrl|ows_EncodedAbsThumbnailUrl|ows_DMSCoverImage
+PictureURL,,Text,False,False,True,True,False,False,False,True,ows_PictureURL|urn:schemas-microsoft-com:sharepoint:portal:profile:PictureURL,urn:schemas.microsoft.com:fulltextqueryinfo:PictureURL
+PictureWidth,,Integer,False,False,True,True,False,False,False,True,ows_ImageWidth|ows_VideoWidthInPixels,ImageWidth
+PopularSocialTags,,Text,False,False,False,True,False,False,True,True
+PostAuthor,Username of author of post (replaces System with logical alternatives),Text,False,False,True,True,True,False,False,True,ows_PostAuthor
+PreferredName,,Text,True,True,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName,urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName
+Priority,,Text,False,False,True,True,False,False,False,True,ows_Priority
+PrivateColleagues,,Text,False,False,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:ColleaguesNonPublic
+prNewsTopic,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_prNewsTopic
+processingtime,,DateTime,False,False,True,True,False,True,False,True
+ProductCatalogGroupNumberOWSTEXT,,Text,False,False,True,True,False,True,False,True,ows_ProductCatalogGroupNumber
+ProductCatalogLanguageTagOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_ProductCatalogLanguageTag
+ProfileExpertise,,Text,False,False,True,False,False,False,False,True
+ProfileName,,Text,False,False,True,False,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName|urn:schemas-microsoft-com:sharepoint:portal:profile:FirstName|urn:schemas-microsoft-com:sharepoint:portal:profile:LastName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticDisplayName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticFirstName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticLastName
+Pronunciations,Pronuciations of people names,Text,True,True,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:FirstName|urn:schemas-microsoft-com:sharepoint:portal:profile:LastName|urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticDisplayName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticFirstName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticLastName
+PSImageRenditionIDOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PSImageRenditionID
+PublishingCatalogSettings,Property containing content catalog configuration information,Text,False,False,False,True,False,False,False,True,PublishingCatalogSettings
+PublishingContactEmailOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PublishingContactEmail
+PublishingContactNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_PublishingContactName
+PublishingContactOWSUSER,,Text,False,False,True,True,False,False,False,False,ows_q_USER_PublishingContact
+PublishingContactPictureOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_PublishingContactPicture
+PublishingExpirationDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_PublishingExpirationDate
+PublishingImage,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_PublishingRollupImage|ows_r_IMGE_PublishingPageImage
+PublishingImageCaptionOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_PublishingImageCaption
+PublishingIsFurlPageOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_PublishingIsFurlPage
+PublishingPageContentOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_PublishingPageContent
+PublishingPageLayoutOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_PublishingPageLayout
+PublishingStartDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_PublishingStartDate
+Purpose,,Text,False,False,True,False,False,False,False,True,ows_Purpose
+PushToGroupOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_PushToGroup
+QLogClickedText,,Text,True,True,False,True,False,False,False,True
+QLogClicks,,Integer,False,False,False,False,False,True,False,True
+QLogLastClicks,,Integer,False,False,False,False,False,True,False,True
+QLogSiteClicks,,Integer,False,False,False,False,False,True,False,True
+QLogSiteLastClicks,,Integer,False,False,False,False,False,True,False,True
+QLogSiteSkips,,Integer,False,False,False,False,False,True,False,True
+QLogSkips,,Integer,False,False,False,False,False,True,False,True
+QueryTerms,,Text,False,False,False,True,False,False,True,True
+Rank,,Integer,False,False,False,True,False,False,False,True,urn:schemas.microsoft.com:fulltextqueryinfo:rank
+RankDetail,,Text,False,False,True,True,False,False,False,True
+RankingWeightHigh,,Text,True,True,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:OrganizationNames|urn:schemas-microsoft-com:sharepoint:portal:profile:Department
+RankingWeightLow,,Text,True,True,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Skills|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Interests
+RankingWeightName,,Text,True,True,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:CombinedName|urn:schemas-microsoft-com:sharepoint:portal:profile:UserName|urn:schemas-microsoft-com:sharepoint:portal:profile:WorkEmail|urn:schemas-microsoft-com:sharepoint:portal:profile:AccountName|urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-SipAddress
+Rating,,Double,False,False,False,True,False,False,False,True
+RatingCount,,Integer,False,False,False,True,False,False,False,True,ows_RatingCount
+recommendedfor,,Text,False,False,True,False,True,True,True,True
+RecsClickedLifeTime,,Integer,False,False,False,True,False,True,False,True
+RecsClickedRecent,,Integer,False,False,False,True,False,True,False,True
+RefinableDate00,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate01,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate02,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate03,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate04,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate05,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate06,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate07,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate08,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate09,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate10,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate11,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate12,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate13,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate14,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate15,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate16,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate17,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate18,,DateTime,False,False,True,True,True,True,True,True
+RefinableDate19,,DateTime,False,False,True,True,True,True,True,True
+RefinableDecimal00,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal01,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal02,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal03,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal04,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal05,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal06,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal07,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal08,,Decimal,False,False,True,True,True,True,True,True
+RefinableDecimal09,,Decimal,False,False,True,True,True,True,True,True
+RefinableDouble00,,Double,False,False,True,True,True,True,True,True
+RefinableDouble01,,Double,False,False,True,True,True,True,True,True
+RefinableDouble02,,Double,False,False,True,True,True,True,True,True
+RefinableDouble03,,Double,False,False,True,True,True,True,True,True
+RefinableDouble04,,Double,False,False,True,True,True,True,True,True
+RefinableDouble05,,Double,False,False,True,True,True,True,True,True
+RefinableDouble06,,Double,False,False,True,True,True,True,True,True
+RefinableDouble07,,Double,False,False,True,True,True,True,True,True
+RefinableDouble08,,Double,False,False,True,True,True,True,True,True
+RefinableDouble09,,Double,False,False,True,True,True,True,True,True
+RefinableInt00,,Integer,False,False,True,True,True,True,True,True
+RefinableInt01,,Integer,False,False,True,True,True,True,True,True
+RefinableInt02,,Integer,False,False,True,True,True,True,True,True
+RefinableInt03,,Integer,False,False,True,True,True,True,True,True
+RefinableInt04,,Integer,False,False,True,True,True,True,True,True
+RefinableInt05,,Integer,False,False,True,True,True,True,True,True
+RefinableInt06,,Integer,False,False,True,True,True,True,True,True
+RefinableInt07,,Integer,False,False,True,True,True,True,True,True
+RefinableInt08,,Integer,False,False,True,True,True,True,True,True
+RefinableInt09,,Integer,False,False,True,True,True,True,True,True
+RefinableInt10,,Integer,False,False,True,True,True,True,True,True
+RefinableInt11,,Integer,False,False,True,True,True,True,True,True
+RefinableInt12,,Integer,False,False,True,True,True,True,True,True
+RefinableInt13,,Integer,False,False,True,True,True,True,True,True
+RefinableInt14,,Integer,False,False,True,True,True,True,True,True
+RefinableInt15,,Integer,False,False,True,True,True,True,True,True
+RefinableInt16,,Integer,False,False,True,True,True,True,True,True
+RefinableInt17,,Integer,False,False,True,True,True,True,True,True
+RefinableInt18,,Integer,False,False,True,True,True,True,True,True
+RefinableInt19,,Integer,False,False,True,True,True,True,True,True
+RefinableInt20,,Integer,False,False,True,True,True,True,True,True
+RefinableInt21,,Integer,False,False,True,True,True,True,True,True
+RefinableInt22,,Integer,False,False,True,True,True,True,True,True
+RefinableInt23,,Integer,False,False,True,True,True,True,True,True
+RefinableInt24,,Integer,False,False,True,True,True,True,True,True
+RefinableInt25,,Integer,False,False,True,True,True,True,True,True
+RefinableInt26,,Integer,False,False,True,True,True,True,True,True
+RefinableInt27,,Integer,False,False,True,True,True,True,True,True
+RefinableInt28,,Integer,False,False,True,True,True,True,True,True
+RefinableInt29,,Integer,False,False,True,True,True,True,True,True
+RefinableInt30,,Integer,False,False,True,True,True,True,True,True
+RefinableInt31,,Integer,False,False,True,True,True,True,True,True
+RefinableInt32,,Integer,False,False,True,True,True,True,True,True
+RefinableInt33,,Integer,False,False,True,True,True,True,True,True
+RefinableInt34,,Integer,False,False,True,True,True,True,True,True
+RefinableInt35,,Integer,False,False,True,True,True,True,True,True
+RefinableInt36,,Integer,False,False,True,True,True,True,True,True
+RefinableInt37,,Integer,False,False,True,True,True,True,True,True
+RefinableInt38,,Integer,False,False,True,True,True,True,True,True
+RefinableInt39,,Integer,False,False,True,True,True,True,True,True
+RefinableInt40,,Integer,False,False,True,True,True,True,True,True
+RefinableInt41,,Integer,False,False,True,True,True,True,True,True
+RefinableInt42,,Integer,False,False,True,True,True,True,True,True
+RefinableInt43,,Integer,False,False,True,True,True,True,True,True
+RefinableInt44,,Integer,False,False,True,True,True,True,True,True
+RefinableInt45,,Integer,False,False,True,True,True,True,True,True
+RefinableInt46,,Integer,False,False,True,True,True,True,True,True
+RefinableInt47,,Integer,False,False,True,True,True,True,True,True
+RefinableInt48,,Integer,False,False,True,True,True,True,True,True
+RefinableInt49,,Integer,False,False,True,True,True,True,True,True
+RefinableString00,,Text,False,False,True,True,True,True,True,True
+RefinableString01,,Text,False,False,True,True,True,True,True,True
+RefinableString02,,Text,False,False,True,True,True,True,True,True
+RefinableString03,,Text,False,False,True,True,True,True,True,True
+RefinableString04,,Text,False,False,True,True,True,True,True,True
+RefinableString05,,Text,False,False,True,True,True,True,True,True
+RefinableString06,,Text,False,False,True,True,True,True,True,True
+RefinableString07,,Text,False,False,True,True,True,True,True,True
+RefinableString08,,Text,False,False,True,True,True,True,True,True
+RefinableString09,,Text,False,False,True,True,True,True,True,True
+RefinableString10,,Text,False,False,True,True,True,True,True,True
+RefinableString11,,Text,False,False,True,True,True,True,True,True
+RefinableString12,,Text,False,False,True,True,True,True,True,True
+RefinableString13,,Text,False,False,True,True,True,True,True,True
+RefinableString14,,Text,False,False,True,True,True,True,True,True
+RefinableString15,,Text,False,False,True,True,True,True,True,True
+RefinableString16,,Text,False,False,True,True,True,True,True,True
+RefinableString17,,Text,False,False,True,True,True,True,True,True
+RefinableString18,,Text,False,False,True,True,True,True,True,True
+RefinableString19,,Text,False,False,True,True,True,True,True,True
+RefinableString20,,Text,False,False,True,True,True,True,True,True
+RefinableString21,,Text,False,False,True,True,True,True,True,True
+RefinableString22,,Text,False,False,True,True,True,True,True,True
+RefinableString23,,Text,False,False,True,True,True,True,True,True
+RefinableString24,,Text,False,False,True,True,True,True,True,True
+RefinableString25,,Text,False,False,True,True,True,True,True,True
+RefinableString26,,Text,False,False,True,True,True,True,True,True
+RefinableString27,,Text,False,False,True,True,True,True,True,True
+RefinableString28,,Text,False,False,True,True,True,True,True,True
+RefinableString29,,Text,False,False,True,True,True,True,True,True
+RefinableString30,,Text,False,False,True,True,True,True,True,True
+RefinableString31,,Text,False,False,True,True,True,True,True,True
+RefinableString32,,Text,False,False,True,True,True,True,True,True
+RefinableString33,,Text,False,False,True,True,True,True,True,True
+RefinableString34,,Text,False,False,True,True,True,True,True,True
+RefinableString35,,Text,False,False,True,True,True,True,True,True
+RefinableString36,,Text,False,False,True,True,True,True,True,True
+RefinableString37,,Text,False,False,True,True,True,True,True,True
+RefinableString38,,Text,False,False,True,True,True,True,True,True
+RefinableString39,,Text,False,False,True,True,True,True,True,True
+RefinableString40,,Text,False,False,True,True,True,True,True,True
+RefinableString41,,Text,False,False,True,True,True,True,True,True
+RefinableString42,,Text,False,False,True,True,True,True,True,True
+RefinableString43,,Text,False,False,True,True,True,True,True,True
+RefinableString44,,Text,False,False,True,True,True,True,True,True
+RefinableString45,,Text,False,False,True,True,True,True,True,True
+RefinableString46,,Text,False,False,True,True,True,True,True,True
+RefinableString47,,Text,False,False,True,True,True,True,True,True
+RefinableString48,,Text,False,False,True,True,True,True,True,True
+RefinableString49,,Text,False,False,True,True,True,True,True,True
+RefinableString50,,Text,False,False,True,True,True,True,True,True
+RefinableString51,,Text,False,False,True,True,True,True,True,True
+RefinableString52,,Text,False,False,True,True,True,True,True,True
+RefinableString53,,Text,False,False,True,True,True,True,True,True
+RefinableString54,,Text,False,False,True,True,True,True,True,True
+RefinableString55,,Text,False,False,True,True,True,True,True,True
+RefinableString56,,Text,False,False,True,True,True,True,True,True
+RefinableString57,,Text,False,False,True,True,True,True,True,True
+RefinableString58,,Text,False,False,True,True,True,True,True,True
+RefinableString59,,Text,False,False,True,True,True,True,True,True
+RefinableString60,,Text,False,False,True,True,True,True,True,True
+RefinableString61,,Text,False,False,True,True,True,True,True,True
+RefinableString62,,Text,False,False,True,True,True,True,True,True
+RefinableString63,,Text,False,False,True,True,True,True,True,True
+RefinableString64,,Text,False,False,True,True,True,True,True,True
+RefinableString65,,Text,False,False,True,True,True,True,True,True
+RefinableString66,,Text,False,False,True,True,True,True,True,True
+RefinableString67,,Text,False,False,True,True,True,True,True,True
+RefinableString68,,Text,False,False,True,True,True,True,True,True
+RefinableString69,,Text,False,False,True,True,True,True,True,True
+RefinableString70,,Text,False,False,True,True,True,True,True,True
+RefinableString71,,Text,False,False,True,True,True,True,True,True
+RefinableString72,,Text,False,False,True,True,True,True,True,True
+RefinableString73,,Text,False,False,True,True,True,True,True,True
+RefinableString74,,Text,False,False,True,True,True,True,True,True
+RefinableString75,,Text,False,False,True,True,True,True,True,True
+RefinableString76,,Text,False,False,True,True,True,True,True,True
+RefinableString77,,Text,False,False,True,True,True,True,True,True
+RefinableString78,,Text,False,False,True,True,True,True,True,True
+RefinableString79,,Text,False,False,True,True,True,True,True,True
+RefinableString80,,Text,False,False,True,True,True,True,True,True
+RefinableString81,,Text,False,False,True,True,True,True,True,True
+RefinableString82,,Text,False,False,True,True,True,True,True,True
+RefinableString83,,Text,False,False,True,True,True,True,True,True
+RefinableString84,,Text,False,False,True,True,True,True,True,True
+RefinableString85,,Text,False,False,True,True,True,True,True,True
+RefinableString86,,Text,False,False,True,True,True,True,True,True
+RefinableString87,,Text,False,False,True,True,True,True,True,True
+RefinableString88,,Text,False,False,True,True,True,True,True,True
+RefinableString89,,Text,False,False,True,True,True,True,True,True
+RefinableString90,,Text,False,False,True,True,True,True,True,True
+RefinableString91,,Text,False,False,True,True,True,True,True,True
+RefinableString92,,Text,False,False,True,True,True,True,True,True
+RefinableString93,,Text,False,False,True,True,True,True,True,True
+RefinableString94,,Text,False,False,True,True,True,True,True,True
+RefinableString95,,Text,False,False,True,True,True,True,True,True
+RefinableString96,,Text,False,False,True,True,True,True,True,True
+RefinableString97,,Text,False,False,True,True,True,True,True,True
+RefinableString98,,Text,False,False,True,True,True,True,True,True
+RefinableString99,,Text,False,False,True,True,True,True,True,True
+ReplyCount,Number of replies to this MicroBlog item,Integer,False,False,False,True,False,False,False,True,ows_ReplyCount|ows_ItemChildCount
+Responsibilities,,Text,True,True,True,True,True,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Responsibility,Responsibility
+RobotsNoIndex,,YesNo,False,False,True,False,False,False,False,True,ows_RobotsNoIndex
+RobotsNoIndexOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_RobotsNoIndex
+RootPostID,ID (place in list) of the root post of this post,Text,False,False,True,True,False,False,False,True,ows_RootPostID
+RootPostOwnerID,Full alias of the author of the root post of this post,Text,False,False,True,True,False,False,False,False,ows_RootPostOwnerID
+RootPostUniqueID,,Text,False,False,True,True,False,False,False,True,ows_RootPostUniqueID
+SBWPageContent1OWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_SBWPageContent1
+Schools,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-School
+seAddress,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_WorkState
+seArticleDate,Created by Stora Enso,Text,True,True,True,True,False,True,False,True,ows_q_DATE_ArticleStartDate,ArticleDate
+seblHighlightedArticleOWSBOOL,,Text,False,False,True,True,False,True,False,True,ows_q_BOOL_seblHighlightedArticle
+seblProductCategoryMultiTax,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_taxId_seblProductCategoryMultiTax
+seblProductTax,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_taxId_seblProductTax
+seblPushToGroupOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seblPushToGroup
+seblRelatedProductsTax,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_taxId_seblRelatedProductsTax
+seblShowShareLinksOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seblShowShareLinks
+seblSiteNavTax,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_taxId_seblSiteNavTax
+seblTaxReThinkTopic,,Text,True,True,True,True,True,False,True,True,ows_seblTaxReThinkTopic|ows_taxId_seblTaxReThinkTopic,RethinkArticle
+seBody,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_Body
+seBrand,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seBrand|ows_seBrandUnique,Brand
+seBrowserLanguagesMultiOWSCHCM,,Text,False,False,True,True,False,False,False,True,ows_q_CHCM_seBrowserLanguagesMulti
+seBusinessCountries,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_seTaxBusinessCountriesMulti,BusinessCountries
+seBusinessSegment,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_serpTaxBusinessSegmentMulti|ows_blTaxBusinessSegment|ows_bmTaxBusinessSegment,BusinessSegment
+seCategory,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_serpTaxCategoryUnique,CategoryUnique
+seCategoryMulti,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_serpTaxCategoryMulti,CategoryMulti
+seCertAndLabelsTextOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_seCertAndLabelsText
+seCertificatesAndLabels,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_seCertificatesAndLabels|ows_seCertificatesAndLabelsUnique|ows_taxId_seCertificatesAndLabels|ows_taxId_seCertificatesAndLabelsUnique,CertificatesAndLabels
+seChoiceYearOWSCHCS,,Text,False,False,True,True,True,False,False,True,ows_q_CHCS_seChoiceYear
+seCity,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_WorkCity
+SecondaryFileExtension,,Text,False,False,True,True,False,False,False,True,ows_FileType|ows_File_x0020_Type
+SecondLevelColleagues,,Text,False,False,True,True,False,False,True,True
+seContactCategories,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ContactCategories
+seContactId,Created by Stora Enso,Integer,True,True,True,True,False,False,False,True,ows_q_INTG_segiContactId|ows_segiContactId
+seContactIdText,Created by Stora Enso,Text,True,True,True,True,True,False,False,True,ows_q_INTG_segiContactId|ows_segiContactId
+seContactImage,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_r_IMGE_segiContactImage
+seContactPerson,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_seContactPerson
+seContactSortNumber,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_q_NMBR_seContactSortNumber
+seContactSortNumberOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_seContactSortNumber
+seContactTypes,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_segiTaxContactTypeMulti|ows_blTaxContactTypeMulti|ows_bmTaxContactTypeMulti|ows_serpTaxContactTypeMulti|ows_seTaxGlobalContactTypes,ContactTypes
+seContestChoiceOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_seContestChoice
+seCreatedYear,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seCreatedYear
+SectionIndexes,,Text,False,False,False,True,False,False,True,True
+SectionNames,,Text,False,False,False,True,False,False,True,True
+seDepGrammageDOBL,Created by Stora Enso,Double,True,True,True,True,True,True,True,True,ows_q_NMBR_seGrammage|ows_seDepGrammage
+seDepGrammageOWSNMBR,Created by Stora Enso,Decimal,True,True,True,True,True,True,True,True,ows_q_NMBR_seGrammage|ows_seDepGrammage,Grammage
+seDescription,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_Comments
+seDocumentLanguage,Created by Stora Enso,Text,True,True,True,True,True,False,False,True,ows_segiTaxLanguage|segiTaxLanguage,DocumentLanguage
+seEmbeddedCodeOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_seEmbeddedCode
+seEndUse,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_seEndUse|ows_serpTaxEndUseUnique,EndUse
+seEndUseMulti,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_serpEndUses,ProductFamilyEndUseMulti
+seEndUses,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_serpTaxEndUseMulti
+seEventEndDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_EndDate,EventEndDate
+seEventLocation,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_Location|ows_commonTaxBusinessCountry,EventLocation
+seEventStartDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_StartDate,EventStartDate
+seExtendendServicePriceListLinkOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seExtendendServicePriceListLink
+seFileName,,Text,True,True,True,True,False,False,False,True,ows_LinkFilenameNoMenu
+seFileSize,Created by Stora Enso,Integer,True,True,True,True,True,False,True,True,ows_FileSizeDisplay,FileSize
+seFinishShade,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_seFinishShade,FinishShade
+seFirstName,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seFirstName
+seFirstNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seFirstName
+segiArticleYearGR,,Text,True,True,True,True,True,True,False,True,ows_ArticleYear_GR
+segiAShareOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiAShare
+segiChangeSharePercentageOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiChangeSharePercentage
+segiChangeVotePercentageOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiChangeVotePercentage
+segiContactDescriptionOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_segiContactDescription
+segiContactIdOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_segiContactId
+segiContactImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_segiContactImage
+segiCreatedYearOWSINTG,Created by Stora Enso,Text,True,True,True,True,True,False,False,True
+segiDotComGlobalNewsCategory,,Text,True,True,True,True,True,True,True,True,ows_taxId_seDotComglobalnews|ows_seDotComglobalnews
+SegiFeedArticleDate,,Text,True,True,True,True,True,True,False,True,ows_q_DATE_ArticleStartDate|ows_ArticleStartDate|ows_q_DATE_NewsMediaPublishedDate|ows_NewsMediaPublishedDate|ows_Created|ows_q_DATE_Created
+segiFeedbackCommentOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_segiFeedbackComment
+segiFeedbackCompanyNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackCompanyName
+segiFeedbackContactMeOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_segiFeedbackContactMe
+segiFeedbackEmailOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackEmail
+segiFeedbackFirstNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackFirstName
+segiFeedbackLastNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackLastName
+segiFeedbackPhoneOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackPhone
+segiFeedbackQueryTypeOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_segiFeedbackQueryType
+segiFeedbackQueryTypeValueOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiFeedbackQueryTypeValue
+segiGRArticleDate,,Text,True,True,True,True,True,True,False,True,ows_ArticleDate_GR
+segiHighlightedArticleOWSBOOL,Created by Stora Enso,YesNo,True,True,True,True,False,True,False,True,ows_q_BOOL_segiHighlightedArticle
+segiHighlightedDocumentOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_segiHighlightedDocument
+segiHighlightedSortOrder,,Integer,True,True,True,True,True,True,False,True,ows_segiHighlightedSortOrder
+segiHighlightedSortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiHighlightedSortOrder
+segiItemNumberOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiItemNumber
+segiMediaEmail,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_segiMediaEmail
+segiMediaEmailOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiMediaEmail
+segiMediaName,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_segiMediaName
+segiMediaNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiMediaName
+segiMediaPhoto,Created by Stora Enso,Text,True,True,True,True,True,False,False,True,ows_segiMediaPhoto
+segiMediaPhotoOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_segiMediaPhoto
+segiMediaSortnumber,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True,ows_segiMediaSortnumber
+segiMediaSortnumberOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiMediaSortnumber
+segiMediaTelephone,Created by Stora Enso,Text,True,True,True,True,True,False,False,True,ows_segiMediaTelephone
+segiMediaTelephoneOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiMediaTelephone
+segiNationalityOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiNationality
+segiPCCategoryBackgroundHex,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_CategoryBackgroundHex
+segiPCCategoryHoverHex,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_CategoryHoverHex
+segiPCCategoryProgressSelectedHex,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_CategoryProgressSelectedHex
+segiPCCategoryProgressUnselectedHex,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_CategoryProgressUnselectedHex
+segiPCIssueArea,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueArea
+segiPCIssueAreaAnchor,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaAnchor
+segiPCIssueAreaCategory,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaCategory
+segiPCIssueAreaImage,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_IssueAreaImage
+segiPCIssueAreaIntro,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaIntro
+segiPCIssueAreaKPISortOrder,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True,ows_PC_IssueAreaKPISortOrder
+segiPCIssueAreaLeftBlockHeader,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaLeftBlockHeader
+segiPCIssueAreaLeftBlockText,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_r_HTML_PC_IssueAreaLeftBlockText
+segiPCIssueAreaLinkSortOrder,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True,ows_PC_IssueAreaLinkSortOrder
+segiPCIssueAreaLinkURL,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaLinkURL
+segiPCIssueAreaRightBlockHeader,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_IssueAreaRightBlockHeader
+segiPCIssueAreaRightBlockText,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_r_HTML_PC_IssueAreaRightBlockText
+segiPCIssueAreaSortOrder,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True,ows_PC_IssueAreaSortOrder
+segiPCIssueAreaTeaserText,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_PC_IssueAreaTeaserText
+segiPCIssueCategorySortOrder,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True,ows_PC_IssueCategorySortOrder
+segiPCKPIPerformanceLabel,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPIPerformanceLabel
+segiPCKPIPerformanceValue,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPIPerformanceValue
+segiPCKPIProgress1,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPIProgress1
+segiPCKPIProgress2,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPIProgress2
+segiPCKPIProgress3,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPIProgress3
+segiPCKPITargetLabel,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPITargetLabel
+segiPCKPITargetValue,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_KPITargetValue
+segiPCLinkUrl,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_PC_LinkURL
+segiPCProgressBar,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_PC_ProgressBar
+segiPCSortOrder,Created by Stora Enso,Integer,True,True,True,True,True,True,False,True
+segiPCSummaryProgressBar,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_PC_SummaryProgressBar
+segiPCUpdateDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_PC_UpdateDate
+segiPCUpdateHighlight,Created by Stora Enso,YesNo,True,True,True,True,False,True,False,True,ows_PC_UpdateHighlight,PCUpdateHighlight
+segiPSfeedSourceUrlOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiPSfeedSourceUrl
+segiPublicationCategory,Created by Stora Enso,Text,True,True,True,True,True,False,False,True,ows_segiTaxPublicationCategory|segiTaxPublicationCategory,PublicationCategory
+segiQuarterOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_segiQuarter
+segiReThinkTopic,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_segiTaxReThinkTopic|ows_serpTaxRethinkTopicMulti|ows_seblTaxReThinkTopic,ReThinkTopic
+segiRShareOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_segiRShare
+segiShareholderFootnoteOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_segiShareholderFootnote
+segiSharePercentageOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiSharePercentage
+segiShowShareLinksOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_segiShowShareLinks
+segiSortOrderOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_segiSortOrder
+segiVotePercentageOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_segiVotePercentage
+segiYear,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seChoiceYear,Year
+segiYearOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_segiYear
+seGrammageOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_seGrammage
+seGroupingMulti,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_serpTaxGroupingMulti
+seIncludeOnGroupNewsOWSBOOL,,Text,False,False,True,True,True,False,False,True,ows_q_BOOL_seIncludeOnGroupNews
+seIngress,,Text,False,False,True,True,True,False,True,True,ows_seIngress,Ingress
+seIngressOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_seIngress
+seIsHighlighted,Created by Stora Enso,Text,True,True,True,True,False,True,False,True,ows_q_BOOL_serpIsHighlighted,IsHighlighted
+seLastName,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seLastName
+seLastNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seLastName
+seLinkUrlOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seLinkUrl
+seLogoImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_seLogoImage
+seMailingAddressOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_seMailingAddress
+seMarketingEndDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_q_DATE_seMarketingRedirectEndDate
+seMarketingRedirectActiveOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seMarketingRedirectActive
+seMarketingRedirectDescriptionOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seMarketingRedirectDescription
+seMarketingRedirectEndDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_seMarketingRedirectEndDate
+seMarketingRedirectGroupOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_seMarketingRedirectGroup
+seMarketingRedirectStartDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_seMarketingRedirectStartDate
+seMarketingRedirectUrlOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seMarketingRedirectUrl
+seMarketingStartDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_q_DATE_seMarketingRedirectStartDate
+seMarketingUrlOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seMarketingUrl
+seMaterialAvailable,Created by Stora Enso,YesNo,True,True,True,True,False,False,False,True,ows_seMaterialAvailable,MaterialAvailable
+seMaterialAvailableOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seMaterialAvailable
+seMaterialSentOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seMaterialSent
+seMill,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_seMill|ows_serpTaxCountriesMillsMulti,Mill
+seMovieLink,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_WebPage,MovieLink
+seNewsArea,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_taxId_serpTaxNewsArea,NewsArea
+seNewsCategory,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_segiTaxNewsCategory|ows_bmTaxNewsCategory
+SeoBrowserTitleOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SeoBrowserTitle
+seOfficeName,,Text,False,False,True,True,True,True,False,True,ows_seOfficeName
+SeoKeywordsOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SeoKeywords
+SeoMetaDescriptionOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SeoMetaDescription
+seOrganisationDivisions,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_segiTaxContactDivisionOrgMulti|ows_bmTaxContactDivisionOrgMulti|ows_serpTaxContactDivisionOrgMulti|ows_blTaxContactDivisionOrgMulti|ows_seTaxOrganisationDivision,OrganisationDivisions
+sePageContent,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_PublishingPageContent
+sePageContentOWSHTML,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_r_HTML_PublishingPageContent,PageContent
+sePageTitle,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_Title,PageTitle
+sePageTitleOWSTEXT,,Text,False,False,True,True,False,True,False,True,ows_q_TEXT_sePageTitle
+sePageUrlOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_sePageUrl
+sePath,path, DAV:href, VPath, DocAddress or Item,Text,False,False,True,True,False,False,False,False,11|9|2
+sePostOfficeBoxOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_sePostOfficeBox
+sePreamble,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_sePreamble,Preamble
+sePreambleOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_sePreamble
+sePrimaryContact,,Text,True,True,False,False,False,True,False,True,ows_q_BOOL_sePrimaryContact
+sePrimaryContactOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_sePrimaryContact
+sePrintingMethod,Created by Stora Enso,Text,True,True,True,True,True,False,True,True,ows_sePrintingMethod|ows_taxId_sePrintingMethod,PrintingMethod
+seProductCategory,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_seProductCategory|ows_seProductCategoryMulti|ows_seProductCategoryUnique,ProductCategory
+seProductFamilies,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_bmProductFamilies
+seProductName,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_seProductUnique|ows_seProductMulti,ProductName
+seProductSegment,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_blProducts
+sePushToGroup,,YesNo,True,True,True,True,True,False,False,True,ows_seblPushToGroup
+seQuantityOWSINTG,,Text,False,False,True,True,False,False,False,True,ows_q_INTG_seQuantity
+seReadMoreLinkOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seReadMoreLink
+seRequestSampleLinkOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seRequestSampleLink
+serpFeedbackAdditionalInformatioOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackAdditionalInformatio
+serpFeedbackAddressLine1OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackAddressLine1
+serpFeedbackAddressLine2OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackAddressLine2
+serpFeedbackCompanyOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackCompany
+serpFeedbackCountryOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackCountry
+serpFeedbackEmailOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackEmail
+serpFeedbackNameOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackName
+serpFeedbackNewsletterOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_serpFeedbackNewsletter
+serpFeedbackPhoneOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFeedbackPhone
+serpFindUsLinkTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpFindUsLinkText
+serpHeaderImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_serpHeaderImage
+serpHeaderTitle1OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpHeaderTitle1
+serpHeaderTitle2OWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpHeaderTitle2
+serpImageTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpImageText
+serpIsHighlightedOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_serpIsHighlighted
+serpLastModifiedDate,Created by Stora Enso,DateTime,True,True,True,True,True,True,False,True,ows_q_DATE_Modified,LastModifiedDate
+serpMillAdditionalInfoOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_serpMillAdditionalInfo
+serpMillAdditionalInfoOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpMillAdditionalInfo
+serpMillImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_serpMillImage
+serpMillLocationOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpMillLocation
+serpNewsDisplayDateTime,,Text,True,True,True,True,False,True,False,True,ows_q_DATE_serpNewsDisplayDateTime
+serpNewsDisplayDateTimeOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_serpNewsDisplayDateTime|ows_serpNewsDisplayDateTime
+serpPageContentOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_serpPageContent
+serpPageUrlOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpPageUrl
+serpRollUpTextOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_serpRollUpText
+serpShowSocialLinksOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_serpShowSocialLinks
+serpSubtitleOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_serpSubtitle
+ServerRedirectedEmbedURL,,Text,False,False,False,True,False,False,False,True,ows_ServerRedirectedEmbedUrl
+ServerRedirectedPreviewURL,,Text,False,False,False,True,False,False,False,True,ows_ServerRedirectedPreviewUrl
+ServerRedirectedURL,,Text,False,False,True,True,False,False,False,True,ows_ServerRedirectedUrl
+ServiceApplicationID,,Text,False,False,True,True,False,False,False,True
+seSearchableOnGroupOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seSearchableOnGroup
+seSearchOnGroup,C,Text,True,True,True,True,True,True,False,True,ows_seSearchOnGroup
+seSearchOnGroupOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seSearchOnGroup
+seSendEmailNotificationOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seSendEmailNotification
+seSendMessageLinkOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seSendMessageLink
+seSendNewsViaEmailNotificationOWSBOOL,,Text,False,False,True,True,False,False,False,True,ows_q_BOOL_seSendNewsViaEmailNotification
+seServicesImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_seServicesImage
+seServicesTextOWSHTML,,Text,False,False,False,True,False,False,False,True,ows_r_HTML_seServicesText
+seShortDescription,Created by Stora Enso,Text,True,True,True,True,True,True,True,True,ows_Short_x0020_Description,ShortDescription
+seSlideImage,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,SlideImage
+seSlideImages,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,SlideImages
+seSortOrder,,Integer,True,True,True,True,False,True,False,True,ows_seSortOrder|ows_q_CHCS_seSortOrder|ows_q_INTG_segiSortOrder|ows_segiSortOrder,SortOrder
+seSortOrderOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_seSortOrder
+seStartDateYear,Created by Stora Enso,Text,True,True,True,True,True,True,False,True,ows_seCreatedYear|ows_seStartDateYear
+seSustainabilityBackgroundImageOWSIMGE,,Text,False,False,False,True,False,False,False,True,ows_r_IMGE_seSustainabilityBackgroundImage
+seSustainabilityLinkTargetOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_seSustainabilityLinkTarget
+seSustainabilityOverlayTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_seSustainabilityOverlayText
+seSustainabilitySortOrderOWSCHCS,Created by Stora Enso,Text,True,True,True,True,False,True,False,True,ows_q_CHCS_seSustainabilitySortOrder
+seTitleCompleteMatching,Created by Stora Enso,Text,True,True,True,True,False,True,False,True,TermTitle|2|ows_BaseName|Title|MailSubject|5|urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName|urn:schemas.microsoft.com:fulltextqueryinfo:displaytitle|ows_Title|10|9
+seURL,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_URL|ows_WebPage
+seVisitingAddressOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_seVisitingAddress
+seZipCode,Created by Stora Enso,Text,True,True,True,True,False,False,False,True,ows_WorkZip
+SharedWithInternal,List of users/groups an item has been shared with,Text,False,False,True,True,True,False,True,True,ows_SharedWithInternal
+ShareOWSx0020,,Text,False,False,False,True,False,False,False,True,ows_R_x0020_Share
+ShortDescriptionOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_ShortDescription
+SipAddress,,Text,True,True,True,True,False,False,False,False,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-SipAddress
+Site,,Text,False,False,True,True,True,False,False,True,urn:schemas.microsoft.com:fulltextqueryinfo:sitename
+SiteClosed,,YesNo,False,False,True,False,False,False,False,True
+SiteDescription,,Text,False,False,False,True,False,False,False,True,ows_SiteDescription
+SiteID,,Text,False,False,True,True,False,False,False,True,ows_SiteID
+SiteLogo,,Text,False,False,False,True,False,False,False,True,LogoURL
+SitemapChangeFrequency,,Integer,False,False,False,True,False,False,False,True
+SitemapChangeFrequencyOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_SitemapChangeFrequency
+SitemapPriority,,Double,False,False,False,True,False,False,False,True
+SiteMembers,,Text,False,False,False,True,False,False,True,True
+SiteNumFollowers,,Integer,False,False,False,True,False,True,False,True
+SiteOwners,,Text,False,False,False,True,False,False,True,True
+SitePath,,Text,False,False,True,True,False,False,True,True
+siterank,,Integer,False,False,False,False,False,True,False,True
+SiteTitle,,Text,False,False,True,True,False,False,False,True,ows_SiteName,urn:schemas-microsoft-com:office:office#ows_SiteName
+Size,,Integer,False,False,True,True,True,True,False,True,12|ows_ImageSize,DAV:getcontentlength
+Skills,,Text,False,False,True,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-Skills
+SocialTag,,Text,True,True,True,True,False,False,False,True
+SocialTagId,,Text,False,False,True,False,False,False,False,True
+SocialTagTextUrl,,Text,False,False,True,False,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:socialdata:SocialTagTextUrl
+SPContentType,,Text,False,False,True,False,True,False,False,True,ows_ContentType
+SpellingTerms,,Text,True,True,False,False,False,False,False,True
+SPSiteURL,,Text,False,False,True,True,True,True,False,True,ows_SPSiteURL,sitename
+SPVersion,,Integer,False,False,False,True,False,False,False,True,ows_SPVersion
+StartDate,,DateTime,False,False,True,True,False,False,False,True,ows_Start_x0020_date|ows_DMSReleaseDate
+StartDateOWSDATE,,Text,False,False,True,True,False,False,False,True,ows_q_DATE_StartDate
+Status,,Text,False,False,True,True,False,False,False,True,ows_Issue_x0020_Status|ows_Task_x0020_Status
+SubCategoryDescriptionOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SubCategoryDescription
+SubCategoryHeaderTextOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SubCategoryHeaderText
+SubcategoryLinkURLOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_SubcategoryLinkURL
+SubCategorySortOrderOWSNMBR,,Text,False,False,True,True,False,False,False,True,ows_q_NMBR_SubCategorySortOrder
+SubjectOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Subject
+SuffixOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_Suffix
+Tags,,Text,False,False,True,True,True,False,True,False,ows_taxId_MetadataAllTagsInfo
+TaskStatusOWSCHCS,,Text,False,False,True,True,False,False,False,True,ows_q_CHCS_TaskStatus
+TAUCURL,,Text,True,True,False,True,False,False,False,True
+teaser,,Text,False,False,False,True,False,False,False,True
+Text1,,Text,True,True,False,False,False,False,False,True
+Text2,,Text,True,True,False,False,False,False,False,True
+Text3,,Text,True,True,False,False,False,False,False,True
+Title,,Text,True,True,True,True,False,True,False,True,MetadataExtractorTitle|TermTitle|2|ows_BaseName|Title|MailSubject|5|urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName|urn:schemas.microsoft.com:fulltextqueryinfo:displaytitle|ows_Title|10|9,DocTitle
+tld,,Text,False,False,True,True,False,False,False,True
+UIVersionStringOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT__UIVersionString
+UniqueID,,Text,False,False,False,True,False,False,False,True,ows_UniqueID
+UrlDepth,,Integer,False,False,True,True,True,True,False,True
+urlkeywords,,Text,True,True,True,False,False,False,False,True
+URLOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_URL
+urls,,Text,False,False,True,True,False,False,True,True
+UsageAnalyticsId,Used by Item catalog and item catalog front-end to figure out which item id to use to create recommendations,Text,False,False,True,True,False,False,False,True,ows_ProductCatalogItemNumber
+UsageEvent10LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent10Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent11LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent11Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent12LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent12Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent1LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent1Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent2LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent2Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent3LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent3Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent4LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent4Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent5LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent5Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent6LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent6Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent7LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent7Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent8LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent8Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEvent9LifeTime,,Integer,False,False,False,True,False,True,False,True
+UsageEvent9Recent,,Integer,False,False,False,True,False,True,False,True
+UsageEventItemId,,Text,False,False,True,True,True,False,False,True,ows_ProductCatalogItemNumber
+UserEncodingURL,,Text,False,False,False,True,False,False,False,True,ows_VideoSetUserOverrideEncoding
+UserName,,Text,True,True,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:UserName|ows_FullName|ows_Full_x0020_Name
+UserProfile_GUID,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:UserProfile_GUID
+VideoSetRenditionsInfo,,Text,False,False,False,True,False,False,False,True,ows_VideoSetRenditionsInfo
+ViewsLast1Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast1DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast2Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast2DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast3Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast3DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast4Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast4DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast5Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast5DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast6Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast6DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLast7Days,,Integer,False,False,False,True,False,False,False,True
+ViewsLast7DaysUniqueUsers,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths1,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths1Unique,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths2,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths2Unique,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths3,,Integer,False,False,False,True,False,False,False,True
+ViewsLastMonths3Unique,,Integer,False,False,False,True,False,False,False,True
+ViewsLifeTime,,Integer,False,False,False,True,False,True,False,True
+ViewsLifeTimeUniqueUsers,,Integer,False,False,False,True,False,True,False,True
+ViewsRecent,,Integer,False,False,True,True,False,True,False,True
+ViewsRecentUniqueUsers,,Integer,False,False,False,True,False,True,False,True
+VisitingAddress,Created by Stora Enso,Text,True,True,True,True,False,False,True,True,ows_seVisitingAddress
+WebId,,Text,False,False,True,True,False,False,False,True,ows_WebId
+WebPageOWSURLH,,Text,False,False,True,True,False,False,False,True,ows_q_URLH_WebPage
+WebTemplate,,Text,False,False,True,True,True,False,False,True,WebTemplate
+WeightedMemberships,,Text,False,False,False,True,False,False,True,True,urn:schemas-microsoft-com:sharepoint:portal:profile:WeightedMemberships
+wicSystemCopyrightOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_wic_System_Copyright
+WikiCategory,,Text,False,False,True,True,False,False,False,True,ows_Wiki_x0020_Page_x0020_Categories
+WikiFieldOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_WikiField
+WordCustomRefiner1,,Text,False,False,True,True,True,True,True,True
+WordCustomRefiner2,,Text,False,False,True,True,True,True,True,True
+WordCustomRefiner3,,Text,False,False,True,True,True,True,True,True
+WordCustomRefiner4,,Text,False,False,True,True,True,True,True,True
+WordCustomRefiner5,,Text,False,False,True,True,True,True,True,True
+WordExactCustomRefiner,,Text,False,False,True,True,True,True,True,True
+WordPartCustomRefiner1,,Text,False,False,True,True,True,True,True,True
+WordPartCustomRefiner2,,Text,False,False,True,True,True,True,True,True
+WordPartCustomRefiner3,,Text,False,False,True,True,True,True,True,True
+WordPartCustomRefiner4,,Text,False,False,True,True,True,True,True,True
+WordPartCustomRefiner5,,Text,False,False,True,True,True,True,True,True
+WordPartExactCustomRefiner,,Text,False,False,True,True,True,True,True,True
+WorkAddressOWSMTXT,,Text,False,False,False,True,False,False,False,True,ows_r_MTXT_WorkAddress
+WorkCityOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_WorkCity
+WorkEmail,,Text,True,True,True,True,False,False,False,False,urn:schemas-microsoft-com:sharepoint:portal:profile:WorkEmail|ows_EMail|ows_EMail_x0020_,urn:schemas-microsoft-com:sharepoint:portal:profile:WorkEmail
+WorkFaxOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_WorkFax
+WorkPhone,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone|ows_WorkPhone|ows_Work_x0020_Phone,urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone
+WorkPhoneOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_WorkPhone
+WorkStateOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_WorkState
+WorkZipOWSTEXT,,Text,False,False,True,True,False,False,False,True,ows_q_TEXT_WorkZip
+YomiDisplayName,,Text,False,False,True,True,False,False,False,True,urn:schemas-microsoft-com:sharepoint:portal:profile:SPS-PhoneticDisplayName
